@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "puremoneywallet",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "puremoneywallet",
+            "kebab-case"
+        ]
+    }
+}
